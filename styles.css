@@ -7,29 +7,85 @@ body {
     font-family: 'Roboto Condensed', sans-serif;
 }
 
+p {
+    font-size: 15pt;
+    color: #413F54;
+}
+
 h1 {
     font-size: 45pt;
     font-family: 'Lato', sans-serif;
+    color: #5F5AA2;
 }
 h2 {
     font-size: 30pt;
 }
 h3 {
     font-size: 25pt;
+    color: #5F5AA2;
+    border-bottom: 5px solid #5F5AA2;
+    display: inline-block;
 }
 h4 {
     font-size: 20pt;
+    color: #3F4045;
 }
 
+a {
+    border-bottom: 3px solid #355691;
+}
+
+i {
+    color: #413F54;
+}
+i:hover {
+    color: #355691;
+}
+
+
 .title{
-    margin-top: 150px;
-    height: 200px;
-    display: block;
+    width: auto;
+    margin: auto;
+    margin-top: 100px;
+    display: inline-block;
+    position: relative;
+}
+.title h1 {
+    width: auto;
+    font-size: 50pt;
+}
+.title h1:before {
+    content:'<';
+    left: -35px;
+}
+.title h1:after {
+    content:'/>';
+    right: -60px;
+}
+.title h1:before, .title h1:after {
+    display: inline-block;
+    position: absolute;    
+    z-index: -9;
+    color: #3F4045;
+    opacity: .3;
 }
 
 .content {
-    width: 50%; 
+    width: 60%; 
     margin: auto;
+    height: 800px;
+}
+
+.content .about { 
+    width: 50%;
+    margin: auto;    
+}
+.content .about p { 
+    font-size: 18pt;
+    text-align: justify;
+}
+.content .about a{
+    font-size: 30pt;
 }
 
 .content ul {
@@ -37,21 +93,41 @@ h4 {
 }
 
 .content ul li {
-    font-size: 20pt;
     text-decoration: none;
     display: inline-block;
     margin: 15px;
+    color: #413F54;
+}
+.content ul li a {    
+    border: none;
+}
+
+.content ul.tech {    
+    font-size: 30pt;
+}
+.content ul.services {    
+    font-size: 20pt;
 }
 
 .content a {
     text-decoration: none;    
 }
+
 .content a:visited{
     color: initial;
 }
 .content a:hover{
-    color: blue;
+    color: #355691;
 }
+
+.technologies {
+    display: flex;
+    direction: row;
+}
+.column {
+    flex: 1;
+}
+
 
 footer {
     width: 100%;
