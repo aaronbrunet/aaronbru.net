@@ -1,8 +1,8 @@
 {
-  "name": "aaronbrunet.dev",
-  "homepage": "https://aaronbrunet.dev/",
+  "name": "aaronbru.net",
+  "homepage": "https://aaronbru.net/",
   "private": true,
-  "description": "Dev portfolio for Aaron Brunet, Orlando-based developer with a focus on the changing face of the web.",
+  "description": "Portfolio for Aaron Brunet, Orlando-based developer with a focus on the changing face of the web.",
   "version": "0.1.0",
   "author": "Aaron Brunet",
   "dependencies": {
@@ -45,7 +45,7 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
-    "deploy": "gatsby build --prefix-paths && cp ./src/CNAME public/ && gh-pages -b master -d public"
+    "deploy": "gatsby build --prefix-paths"
   },
   "repository": {
     "type": "git",
