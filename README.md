@@ -13,10 +13,10 @@ Portfolio site for Aaron Brunet, web developer based in Orlando, Florida. Specia
 
 URLs:
 - [aaronbru.net](https://aaronbru.net/)
-- [aaronbrunet.com](aaronbrunet.com)
-- [aaronwilliam.com](aaronwilliam.com)
+- [aaronbrunet.com](http://aaronbrunet.com)
+- [aaronwilliam.com](http://aaronwilliam.com)
 
 Related sites:
-- [aaronbrunet.dev](aaronbrunet.dev) - Project site _WIP_
+- [aaronbrunet.dev](http://aaronbrunet.dev) - Project site _WIP_
 
 <!-- AUTO-GENERATED-CONTENT:END -->
