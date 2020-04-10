@@ -45,7 +45,7 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
-    "deploy": "gatsby build --prefix-paths && cp -r ./src/.cpanel.yml public && cp -r public/ deploy/ && gh-pages -b deploy -d deploy"
+    "deploy": "gatsby build --prefix-paths && cp -r ./src/.cpanel.yml public && gh-pages -b deploy -d public"
   },
   "repository": {
     "type": "git",
